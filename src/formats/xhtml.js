@@ -112,7 +112,7 @@
 			txtExec: ['<ol><li>', '</li></ol>']
 		},
 		table: {
-			txtExec: ['<table><tr><td>', '</td></tr></table>']
+			txtExec: ['<table border="1"><tr><td>', '</td></tr></table>']
 		},
 		horizontalrule: {
 			txtExec: ['<hr />']
