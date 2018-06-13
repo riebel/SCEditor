@@ -407,7 +407,7 @@ var defaultCmds = {
 			dom.on(content, 'click', '.button', function (e) {
 				var	rows = Number(dom.find(content, '#rows')[0].value),
 					cols = Number(dom.find(content, '#cols')[0].value),
-					html = '<table>';
+					html = '<table border="1">';
 
 				if (rows > 0 && cols > 0) {
 					html += Array(rows + 1).join(
